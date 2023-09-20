@@ -7,100 +7,131 @@
 </head>
 <body>
     <div id="box1">
-        <div id="dadosPessoais">
+        <header>
             <h1 id="nomeCompleto">Nome completo</h1>
             <h2 id="areaAtua">Área de atuação</h2>
-            <div id="info">
-                <ul>
-                    <li>Telefone</li>
-                    <li>E-mail</li>
-                    <li>Endereço</li>
-                </ul>
-            </div>
-        </div>
+        </header>
+        <section id="dadosContato">
+            <ul>
+                <li><strong>Telefone:</strong> <a href="tel:+123456789">+123456789</a></li>
+                <li><strong>E-mail:</strong> <a href="mailto:seuemail@example.com">seuemail@example.com</a></li>
+                <li><strong>Endereço:</strong> <address>Seu Endereço, Cidade, País</address></li>
+            </ul>
+        </section>
         <div id="fotoPerfil">
             <img width="100px" height="100px" src="../src/alexander-hipp-iEEBWgY_6lA-unsplash.jpg" alt="Foto de perfil">
         </div>
     </div>
+    
     <div id="box2">
         <div id="expProfissionais">
             <h2 class="subTitulos">Experiências Profissionais</h2>
-            <ul>
-                <li><p class="nomes"><strong> Instituição</strong> <br> 
-                    <span class="descricao">Descricao</span> <br>
-                    <span class="periodo">Periodo</span>
-                </p>
-                </li>
-                <li><p class="nomes"><strong> Instituição</strong> <br> 
-                    <span class="descricao">Descricao</span> <br>
-                    <span class="periodo">Periodo</span>
-                </p>
-                </li>
-                <li><p class="nomes"><strong> Instituição</strong> <br> 
-                    <span class="descricao">Descricao</span> <br>
-                    <span class="periodo">Periodo</span>
-                </p>
-                </li>
-                <li><p class="nomes"><strong> Instituição</strong> <br> 
-                    <span class="descricao">Descricao</span> <br>
-                    <span class="periodo">Periodo</span>
-                </p>
-                </li>
-            </ul>
+            <dl>
+                <div class="item">
+                    <dt>Instituição</dt>
+                    <dd>
+                        <p class="descricao">Descricao</p>
+                        <p class="periodo">Periodo</p>
+                    </dd>
+                </div>
+            
+                <div class="item">
+                    <dt>Instituição</dt>
+                    <dd>
+                        <p class="descricao">Descricao</p>
+                        <p class="periodo">Periodo</p>
+                    </dd>
+                </div>
+            
+                <div class="item">
+                    <dt>Instituição</dt>
+                    <dd>
+                        <p class="descricao">Descricao</p>
+                        <p class="periodo">Periodo</p>
+                    </dd>
+                </div>
+            
+                <div class="item">
+                    <dt>Instituição</dt>
+                    <dd>
+                        <p class="descricao">Descricao</p>
+                        <p class="periodo">Periodo</p>
+                    </dd>
+                </div>
+            </dl>            
         </div>
         <div id="formaçãoAcademica">
             <h2 class="subTitulos">Formação Acadêmica</h2>
-            <ul>
-                <li><p class="nomes"><strong>Curso</strong> <br> 
-                    <span class="descricao">Instituição</span> <br>
-                    <span class="periodo">Periodo</span>
-                </p>
-                </li>
-                <li><p class="nomes"><strong>Curso</strong> <br> 
-                    <span class="descricao">Instituição</span> <br>
-                    <span class="periodo">Periodo</span>
-                </p>
-                </li>
-                <li><p class="nomes"><strong>Curso</strong> <br> 
-                    <span class="descricao">Instituição</span> <br>
-                    <span class="periodo">Periodo</span>
-                </p>
-                </li>
-                <li><p class="nomes"><strong>Curso</strong> <br> 
-                    <span class="descricao">Instituição</span> <br>
-                    <span class="periodo">Periodo</span>
-                </p>
-                </li>
-            </ul>
-        </div>
+            <dl>
+                <div class="item">
+                    <dt>Curso</dt>
+                    <dd>
+                        <p class="descricao">Instituição</p>
+                        <p class="periodo">Periodo</p>
+                    </dd>
+                </div>
+        
+                <div class="item">
+                    <dt>Curso</dt>
+                    <dd>
+                        <p class="descricao">Instituição</p>
+                        <p class="periodo">Periodo</p>
+                    </dd>
+                </div>
+        
+                <div class="item">
+                    <dt>Curso</dt>
+                    <dd>
+                        <p class="descricao">Instituição</p>
+                        <p class="periodo">Periodo</p>
+                    </dd>
+                </div>
+        
+                <div class="item">
+                    <dt>Curso</dt>
+                    <dd>
+                        <p class="descricao">Instituição</p>
+                        <p class="periodo">Periodo</p>
+                    </dd>
+                </div>
+            </dl>
+        </div>        
     </div>  
     <div id="cursos">
         <h2 class="subTitulos">Cursos</h2>
-        <ul>
-            <li><p class="nomes"><strong>Nome do curso/certificação</strong> <br> 
-                <span class="descricao">Instituição</span> <br>
-                <span class="periodo">Carga Horária</span>
-            </p>
-            </li>
-            <li><p class="nomes"><strong>Nome do curso/certificação</strong> <br> 
-                <span class="descricao">Instituição</span> <br>
-                <span class="periodo">Carga Horária</span>
-            </p>
-            </li>
-            <li><p class="nomes"><strong>Nome do curso/certificação</strong> <br> 
-                <span class="descricao">Instituição</span> <br>
-                <span class="periodo">Carga Horária</span>
-            </p>
-            </li>
-            <li><p class="nomes"><strong>Nome do curso/certificação</strong> <br> 
-                <span class="descricao">Instituição</span> <br>
-                <span class="periodo">Carga Horária</span>
-            </p>
-            </li>
-        </ul>
-    </div>
-    <div id="referencias">
-        
-    </div>
+        <dl>
+            <div class="item">
+                <dt>Nome do curso/certificação</dt>
+                <dd>
+                    <p class="descricao">Instituição</p>
+                    <p class="periodo">Carga Horária</p>
+                </dd>
+            </div>
+    
+            <div class="item">
+                <dt>Nome do curso/certificação</dt>
+                <dd>
+                    <p class="descricao">Instituição</p>
+                    <p class="periodo">Carga Horária</p>
+                </dd>
+            </div>
+    
+            <div class="item">
+                <dt>Nome do curso/certificação</dt>
+                <dd>
+                    <p class="descricao">Instituição</p>
+                    <p class="periodo">Carga Horária</p>
+                </dd>
+            </div>
+    
+            <div class="item">
+                <dt>Nome do curso/certificação</dt>
+                <dd>
+                    <p class="descricao">Instituição</p>
+                    <p class="periodo">Carga Horária</p>
+                </dd>
+            </div>
+        </dl>
+    </div>    
 </body>
 </html>
