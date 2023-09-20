@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
 * {
     padding:0;
     margin:0;
@@ -15,7 +16,8 @@ body {
 }
 #curriculo {
     margin: auto;
-    width: 70%;
+    width: 60%;
+    padding-top: 40px;
 }
 #box1, #box2, #box3 {
     padding: 20px;
@@ -41,10 +43,14 @@ body {
 h1 {
     font-family: 'Roboto', sans-serif;
 }
-header > #areaAtua, p {
+header > #areaAtua, #dadosContato {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
 }
 h2:not(#areaAtua), #sobrenome {
     color: #E9B824;
+}
+dt {
+    font-weight: bold;
+    color: #252B48;
 }
