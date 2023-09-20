@@ -5,12 +5,31 @@
     list-style:none;
     border:0
 }
-#box1 {
-    background-color: aqua;
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
 }
-#box2 {
-    background-color: blue;
+#curriculo {
+    margin: auto;
+    width: 70%;
+}
+#box1, #box2, #box3 {
+    padding: 20px;
+}
+#box1, #box2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 #box3 {
-    background-color: blueviolet;
+    padding-left: 2%;
+}
+#informacoes {
+    display: flex;
+    flex-direction: column;
+}
+#informacoes > header {
+    padding-bottom: 15px;
 }
