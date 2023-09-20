@@ -13,6 +13,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height:100vh;
+    background: linear-gradient(to right, rgb(248, 240, 229, 0.2) 70%, #ffffff 30%);
+
 }
 #curriculo {
     margin: auto;
@@ -31,14 +33,13 @@ body {
     padding-left: 2%;
 }
 #informacoes {
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
 }
 #informacoes > header {
     padding-bottom: 15px;
 }
-#fotoPerfil > img {
-    border-radius: 50%;
 }
 h1 {
     font-family: 'Roboto', sans-serif;
@@ -60,3 +61,16 @@ dl {
 .item:not(ul li dl) {
     padding-bottom: 10px;
 }
+#fotoPerfil {
+    display: inline-block;
+    border: 5px solid #E9B824; /* Define a borda amarela */
+    border-radius: 50%; /* Torna a borda circular */
+    overflow: hidden; /* Garante que a imagem não ultrapasse a borda */
+    padding: 8px;
+}
+
+#fotoPerfil img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover; /* Garante que a imagem se ajuste ao círculo */
+    border-radius: 50%; /* Torna a imagem circular */
