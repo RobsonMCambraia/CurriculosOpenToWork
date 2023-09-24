@@ -58,7 +58,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 
-header > #areaAtua, #dadosContato {
+header > #areaAtua, #dadosContato, .periodo {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
 }
@@ -67,7 +67,7 @@ h2:not(#areaAtua), #sobrenome {
     color: #E9B824;
 }
 
-dt {
+#nomeCompleto, dt, .curso, .instituicao {
     font-weight: bold;
     color: #252B48;
 }
@@ -95,49 +95,17 @@ dl {
     border-radius: 50%;
 }
 
-/* Breakpoint para dispositivos menores, como tablets */
-@media (max-width: 768px) {
-    #fotoPerfil {
-        width: 120px; 
-        height: 120px; 
-    }
-
-    #fotoPerfil img {
-        width: 100%; 
-        height: 100%;
-    }
+.formacao-list > li {
+    padding: 10px;
 }
 
-/* Breakpoint para dispositivos ainda menores, como celulares */
-@media (max-width: 480px) {
-    #fotoPerfil {
-        width: 80px; 
-        height: 80px; 
-    }
-
-    #fotoPerfil img {
-        width: 100%; 
-        height: 100%; 
-    }
+.formacao-list {
+    list-style-type: none;
+    padding-left: 20px; 
 }
 
-/* Breakpoint para computadores grandes */
-@media (min-width: 1200px) {
-    #curriculo {
-        width: 70%;
-    }
-
-/* Breakpoint para tablets */
-@media (max-width: 768px) {
-    #curriculo {
-        width: 80%;
-    }
-}
-
-/* Breakpoint para celulares */
-@media (max-width: 480px) {
-    #curriculo {
-        width: 100%;
-        padding: 10px;
-    }
+.formacao-list li:before {
+    content: "\25A0"; 
+    color: #E9B824; 
+    margin-right: 5px;
 }
